@@ -1,0 +1,17 @@
+starsfield: Doing password authentication for ESA-Security-Group
+
+starsfield: Doing password authentication for ESA-Security-Group (2. time)
+
+starsfield: Doing password authentication for ESA-Security-Group (3. time)
+
+starsfield: Doing password authentication for ESA-Security-Group (4. time)
+
+get-queens: No more authentication methods.
+
+The operation couldn’t be completed. (Git error -7.)
+Interpreting last error as: SSH Key needed for github.com
+user rejected certificate for github.com
+Interpreting last error as: No way to authenticate with github.com
+-Get-Queens: Fetch received nothing.
+
+bootstrap: Fetch received nothing.
