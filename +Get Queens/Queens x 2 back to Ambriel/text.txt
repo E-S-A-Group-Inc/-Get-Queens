@@ -3837,3 +3837,499 @@
 200310 16:38:34.848 [INFO][448.Tunnel.handleAppMessage] getDNSLogs
 200310 16:38:37.040 [INFO][448.Tunnel.handleAppMessage] flushExtensionLogs
 200310 16:38:40.186 [INFO][448.Tunnel.handleAppMessage] flushExtensionLogs
+200310 16:42:56.147 [INFO][448.DNS.handleQueryResponse] Using fallback resolver for query: id: 64054; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200310 16:42:56.147 [INFO][448.DNS.handleQueryResponse] Using fallback resolver for query: id: 38403; query; status: noError; questions: 1; answers: 0; auth: 0; addition: 0
+200310 16:42:57.549 [INFO][448.Tunnel.startDefaultPathObservation] Updating network settings on interface change
+Old path: 
+    status = satisfied
+    reasonCode = 0
+    reason = Path is satisfied
+    isViable = NO
+    isExpensive = YES
+    clientID = 5EF37E75-6AB0-452D-9480-1A8D3DC82A72
+    interfaceType = cellular
+    mtu = 1450
+    maximumDatagramSize = 1390
+    secondsSinceInterfaceChange = 262
+    interfaceOption = pdp_ip0 : D2C3AB30-18F1-45C3-980B-746514F720D3
+    interface = {
+        type = cellular
+        subtype = other
+        interfaceName = pdp_ip0
+        interfaceIndex = 4
+        generation = 33
+        mtu = 1450
+        ipv4Netmask = {255.255.255.255:0
+        }
+        expensive = YES
+    }
+    scopedInterface = {
+        type = cellular
+        subtype = other
+        interfaceName = pdp_ip0
+        interfaceIndex = 4
+        generation = 0
+        mtu = 1450
+        expensive = YES
+        active = YES
+    }
+    dnsServers = (
+        {2a02:aa0::56.0
+        },
+        {2a02:aa0::55.0
+        },
+        {80.251.201.177:0
+        },
+        {80.251.201.178:0
+        },
+    )
+    gateways = (
+        {100.91.88.254:0
+        },
+        {fe80:4::5.0
+        },
+    )
+    agents = (
+        {
+            domain = Skywalk
+            type = FlowSwitch
+            UUID = D2C3AB30-18F1-45C3-980B-746514F720D3
+            description = Userspace Networking
+            isActive = YES
+            isUserActivated = NO
+            isVoluntary = NO
+            isNexusProvider = YES
+        },
+        {
+            domain = SystemConfig
+            type = DNSAgent
+            UUID = 1CBC3268-9AA4-1C4E-D347-79120616228E
+            description = DNSAgent-@pdp_ip0
+            isActive = YES
+            isUserActivated = YES
+            isVoluntary = NO
+        },
+        {
+            domain = Cellular
+            type = Internet
+            UUID = 0E6241E4-60A6-4302-86AA-29E1310485F5
+            description = CommCenter: Internet
+            isActive = YES
+            isUserActivated = YES
+            isVoluntary = YES
+            isNetworkProvider = YES
+        },
+        {
+            domain = Persistent
+            type = Persistent
+            UUID = 044F16B4-8306-4AF8-8CF3-86BCD91E8A81
+            description = Persistent interface guidance
+            isActive = YES
+            isUserActivated = NO
+            isVoluntary = NO
+        },
+    )
+    supportsIPv4 = YES
+    supportsIPv6 = YES
+    supportsDNS = YES
+New path: 
+    status = satisfied
+    reasonCode = 0
+    reason = Path is satisfied
+    isViable = NO
+    isExpensive = NO
+    clientID = 5EF37E75-6AB0-452D-9480-1A8D3DC82A72
+    interfaceType = wifi
+    mtu = 1500
+    maximumDatagramSize = 1440
+    secondsSinceInterfaceChange = 2
+    interfaceOption = en0 : CF45F9C0-48A1-4B16-8EB9-BA833846016A
+    interface = {
+        type = wifi
+        subtype = wifi_infrastructure
+        interfaceName = en0
+        interfaceIndex = 8
+        generation = 108
+        mtu = 1500
+        ipv4Netmask = {255.255.254.0:0
+        }
+        ipv4Broadcast = {192.168.201.255:0
+        }
+    }
+    scopedInterface = {
+        type = wifi
+        subtype = wifi_infrastructure
+        interfaceName = en0
+        interfaceIndex = 8
+        generation = 0
+        mtu = 1500
+        active = YES
+    }
+    dnsServers = (
+        {8.8.8.8:0
+        },
+        {8.8.4.4:0
+        },
+    )
+    dnsSearchDomains = (
+        guest.swedbank.se,
+    )
+    gateways = (
+        {192.168.200.1:0
+        },
+    )
+    proxySettings = (
+        (
+        {
+        ExceptionsList =         (
+            "*.local",
+            "169.254/16"
+        );
+        FTPPassive = 1;
+        ProxyAutoConfigEnable = 1;
+        ProxyAutoConfigURLString = "http://wpad/wpad.dat";
+        ProxyAutoDiscoveryEnable = 1;
+    }
+),
+    )
+    agents = (
+        {
+            domain = SystemConfig
+            type = ProxyAgent
+            UUID = 62BE1929-B190-10E2-04B5-4918034E1537
+            description = ProxyAgent-@en0
+            isActive = YES
+            isUserActivated = YES
+            isVoluntary = NO
+        },
+        {
+            domain = Skywalk
+            type = FlowSwitch
+            UUID = CF45F9C0-48A1-4B16-8EB9-BA833846016A
+            description = Userspace Networking
+            isActive = YES
+            isUserActivated = NO
+            isVoluntary = NO
+            isNexusProvider = YES
+        },
+        {
+            domain = SystemConfig
+            type = DNSAgent
+            UUID = 603A1F77-DF64-09C2-2DB6-7BA9284F9A03
+            description = DNSAgent-@en0
+            isActive = YES
+            isUserActivated = YES
+            isVoluntary = NO
+        },
+    )
+    shouldProbeConnectivity = YES
+    supportsIPv4 = YES
+    supportsIPv6 = NO
+    supportsDNS = YES
+200310 16:42:58.453 [INFO][448.Tunnel.startDefaultPathObservation] oldPath is equal to newPath
+200310 16:42:58.616 [INFO][448.UserDefaults.wrappedValue] Got default value for app_shared_restart_on_interface_change: Optional(_1dot1dot1dot_worker.RestartTunnelOnInterfaceChange.auto)
+200310 16:42:58.622 [ERROR][448.Tunnel.cancelTunnelWithError] tunnel cancelled: Error Domain=_1dot1dot1dot_worker.TunnelError Code=7 "Network interface has changed" (code 7)
+200310 16:42:59.989 [INFO][476..init(with:)] Log started, build: 4.5.6be62884
+200310 16:43:00.025 [INFO][476.Tunnel.startTunnel] Tunnel started with options: ["is-on-demand": 1, "ServerAddress": cloudflare-dns.com, "AuthMethod": Password, "match-hostname": wpad]
+200310 16:43:00.026 [INFO][476.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:43:00.027 [INFO][476.UserDefaults.wrappedValue] Got stored value for translation_shim_did_finish_keychain_translation: true
+200310 16:43:00.027 [INFO][476.UserDefaults.wrappedValue] Got stored value for translation_shim_did_finish_config_translation: true
+200310 16:43:00.036 [INFO][476.UserDefaults.wrappedValue] Got stored value for app_shared_warp_configuration: Optional(_1dot1dot1dot_worker.WarpConfiguration(timeStamp: 2020-03-10 16:38:01 +0000, routingId: [232, 45, 105], interface: _1dot1dot1dot_worker.Endpoint(v4: "172.16.0.2", v6: "fd01:5ca1:ab1e:8ab7:1538:b9eb:9ec1:5eca"), peers: [_1dot1dot1dot_worker.Server(publicKey: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", endpoint: _1dot1dot1dot_worker.Endpoint(v4: "162.159.192.10:2408", v6: "[2606:4700:d0::a29f:c00a]:2408"))], deniedIPv4: [_1dot1dot1dot_worker.DeniedIPv4(address: "10.0.0.0", netmask: "255.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "100.64.0.0", netmask: "255.192.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "169.254.0.0", netmask: "255.255.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "172.16.0.0", netmask: "255.240.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "192.0.0.0", netmask: "255.255.255.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "192.168.0.0", netmask: "255.255.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "224.0.0.0", netmask: "240.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "240.0.0.0", netmask: "240.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "255.255.255.255", netmask: "255.255.255.255")], deniedIPv6: [], httpProxy: "172.16.0.1:2480"))
+200310 16:43:00.036 [INFO][476.Tunnel.startTunnel] Configuration age: 5.0 minutes
+200310 16:43:00.037 [INFO][476.UserDefaults.wrappedValue] Got stored value for app_shared_nx_fallback_is_enabled: true
+200310 16:43:00.037 [INFO][476.ResolverRuleList.temporalFallbackEnabled] enabled: true
+200310 16:43:00.037 [INFO][476.UserDefaults.wrappedValue] Got stored value for app_shared_dns_log_is_enabled: true
+200310 16:43:00.037 [INFO][476.DNSLogManager.dnsLogEnabled] log DNS queries: true
+200310 16:43:00.037 [INFO][476.UserDefaults.wrappedValue] Got default value for app_shared_forced_endpoint: nil
+200310 16:43:00.047 [INFO][476.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200310 16:43:00.047 [INFO][476.UserDefaults.wrappedValue] Got default value for app_shared_dns_mode: auto
+200310 16:43:00.048 [INFO][476.UserDefaults.wrappedValue] Got stored value for app_shared_nx_fallback_is_enabled: true
+200310 16:43:00.048 [INFO][476.UserDefaults.wrappedValue] Got stored value for app_shared_dns_log_is_enabled: true
+200310 16:43:00.048 [INFO][476.LogExtension.configurationInfo] App version: 4.5 (2002071600.1) - Registration ID: 03f7508b-428b-49ca-970c-26770704629f - Public Key: fc06e03601f516fa2febbf1f31c1d4c0d1b72f3628e4d67d128cec27c19f0073 - Warp: false - DNS Protocol: auto - NXDomain Fallback: true - Log DNS queries: true
+200310 16:43:00.051 [INFO][476.Tunnel.waitForPathSatisfied] waiting for path to become satisfied
+200310 16:43:00.458 [INFO][476.Tunnel.waitForPathSatisfied] path updated ...
+200310 16:43:00.459 [INFO][476.Tunnel.updateSettingsAndConnect] path is satisfied
+200310 16:43:00.466 [INFO][476.Tunnel.updateNetwork] Default path: 
+    status = satisfied
+    reasonCode = 0
+    reason = Path is satisfied
+    isViable = NO
+    isExpensive = NO
+    clientID = 706BDC26-48BC-45B6-B336-9751BC08F28F
+    interfaceType = wifi
+    mtu = 1500
+    maximumDatagramSize = 1440
+    secondsSinceInterfaceChange = 5
+    interfaceOption = en0 : CF45F9C0-48A1-4B16-8EB9-BA833846016A
+    interface = {
+        type = wifi
+        subtype = wifi_infrastructure
+        interfaceName = en0
+        interfaceIndex = 8
+        generation = 108
+        mtu = 1500
+        ipv4Netmask = {255.255.254.0:0
+        }
+        ipv4Broadcast = {192.168.201.255:0
+        }
+    }
+    scopedInterface = {
+        type = wifi
+        subtype = wifi_infrastructure
+        interfaceName = en0
+        interfaceIndex = 8
+        generation = 0
+        mtu = 1500
+        active = YES
+    }
+    dnsServers = (
+        {8.8.8.8:0
+        },
+        {8.8.4.4:0
+        },
+    )
+    dnsSearchDomains = (
+        guest.swedbank.se,
+    )
+    gateways = (
+        {192.168.200.1:0
+        },
+    )
+    proxySettings = (
+        (
+        {
+        ExceptionsList =         (
+            "*.local",
+            "169.254/16"
+        );
+        FTPPassive = 1;
+        ProxyAutoConfigEnable = 1;
+        ProxyAutoConfigURLString = "http://wpad/wpad.dat";
+        ProxyAutoDiscoveryEnable = 1;
+    }
+),
+    )
+    agents = (
+        {
+            domain = SystemConfig
+            type = ProxyAgent
+            UUID = 62BE1929-B190-10E2-04B5-4918034E1537
+            description = ProxyAgent-@en0
+            isActive = YES
+            isUserActivated = YES
+            isVoluntary = NO
+        },
+        {
+            domain = Skywalk
+            type = FlowSwitch
+            UUID = CF45F9C0-48A1-4B16-8EB9-BA833846016A
+            description = Userspace Networking
+            isActive = YES
+            isUserActivated = NO
+            isVoluntary = NO
+            isNexusProvider = YES
+        },
+        {
+            domain = SystemConfig
+            type = DNSAgent
+            UUID = 603A1F77-DF64-09C2-2DB6-7BA9284F9A03
+            description = DNSAgent-@en0
+            isActive = YES
+            isUserActivated = YES
+            isVoluntary = NO
+        },
+    )
+    supportsIPv4 = YES
+    supportsIPv6 = NO
+    supportsDNS = YES
+200310 16:43:00.469 [INFO][476.NetworkInfo.collectNetworkInfo] HTTP Proxy enabled: false
+200310 16:43:00.470 [INFO][476.NetworkInfo.collectNetworkInfo] IPv4 supported: true; IPv6 supported: false
+200310 16:43:06.486 [INFO][476.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: The request timed out.
+200310 16:43:07.010 [INFO][476.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareok.com/test: The request timed out.
+200310 16:43:07.543 [INFO][476.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflarecp.com/test: The request timed out.
+200310 16:43:07.545 [INFO][476.NetworkInfo.collectNetworkInfo] Captive portal status (1st attempt): Captive portal detected
+200310 16:43:13.552 [INFO][476.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: The request timed out.
+200310 16:43:14.056 [INFO][476.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareok.com/test: The request timed out.
+200310 16:43:14.623 [INFO][476.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflarecp.com/test: The request timed out.
+200310 16:43:14.623 [INFO][476.NetworkInfo.collectNetworkInfo] Captive portal status (2nd attempt): Captive portal detected
+200310 16:43:14.662 [INFO][476.NetworkInfo.collectNetworkInfo] NAT64 prefix to use: ; Error: nil
+200310 16:43:14.672 [INFO][476.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200310 16:43:14.687 [ERROR][476.Tunnel.updateNetwork] Error Domain=_1dot1dot1dot_worker.TunnelError Code=4 "Captive portal detected" (code 4)
+200310 16:43:14.687 [ERROR][476.Tunnel.updateSettingsAndConnect] Error Domain=_1dot1dot1dot_worker.TunnelError Code=4 "Captive portal detected" (code 4)
+200310 16:43:47.608 [INFO][476.Tunnel.waitCaptivePortalResolution] captive portal check
+200310 16:43:48.251 [INFO][476.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: success
+200310 16:43:48.252 [ERROR][476.Tunnel.cancelTunnelWithError] tunnel cancelled: Error Domain=_1dot1dot1dot_worker.TunnelError Code=4 "Captive portal detected" (code 4)
+200310 16:43:48.846 [INFO][478..init(with:)] Log started, build: 4.5.6be62884
+200310 16:43:48.866 [INFO][478.Tunnel.startTunnel] Tunnel started with options: ["AuthMethod": Password, "match-hostname": gateway.icloud.com, "ServerAddress": cloudflare-dns.com, "is-on-demand": 1]
+200310 16:43:48.867 [INFO][478.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:43:48.868 [INFO][478.UserDefaults.wrappedValue] Got stored value for translation_shim_did_finish_keychain_translation: true
+200310 16:43:48.868 [INFO][478.UserDefaults.wrappedValue] Got stored value for translation_shim_did_finish_config_translation: true
+200310 16:43:48.876 [INFO][478.UserDefaults.wrappedValue] Got stored value for app_shared_warp_configuration: Optional(_1dot1dot1dot_worker.WarpConfiguration(timeStamp: 2020-03-10 16:38:01 +0000, routingId: [232, 45, 105], interface: _1dot1dot1dot_worker.Endpoint(v4: "172.16.0.2", v6: "fd01:5ca1:ab1e:8ab7:1538:b9eb:9ec1:5eca"), peers: [_1dot1dot1dot_worker.Server(publicKey: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", endpoint: _1dot1dot1dot_worker.Endpoint(v4: "162.159.192.10:2408", v6: "[2606:4700:d0::a29f:c00a]:2408"))], deniedIPv4: [_1dot1dot1dot_worker.DeniedIPv4(address: "10.0.0.0", netmask: "255.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "100.64.0.0", netmask: "255.192.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "169.254.0.0", netmask: "255.255.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "172.16.0.0", netmask: "255.240.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "192.0.0.0", netmask: "255.255.255.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "192.168.0.0", netmask: "255.255.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "224.0.0.0", netmask: "240.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "240.0.0.0", netmask: "240.0.0.0"), _1dot1dot1dot_worker.DeniedIPv4(address: "255.255.255.255", netmask: "255.255.255.255")], deniedIPv6: [], httpProxy: "172.16.0.1:2480"))
+200310 16:43:48.876 [INFO][478.Tunnel.startTunnel] Configuration age: 5.8 minutes
+200310 16:43:48.876 [INFO][478.UserDefaults.wrappedValue] Got stored value for app_shared_nx_fallback_is_enabled: true
+200310 16:43:48.876 [INFO][478.ResolverRuleList.temporalFallbackEnabled] enabled: true
+200310 16:43:48.877 [INFO][478.UserDefaults.wrappedValue] Got stored value for app_shared_dns_log_is_enabled: true
+200310 16:43:48.877 [INFO][478.DNSLogManager.dnsLogEnabled] log DNS queries: true
+200310 16:43:48.877 [INFO][478.UserDefaults.wrappedValue] Got default value for app_shared_forced_endpoint: nil
+200310 16:43:48.883 [INFO][478.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200310 16:43:48.884 [INFO][478.UserDefaults.wrappedValue] Got default value for app_shared_dns_mode: auto
+200310 16:43:48.884 [INFO][478.UserDefaults.wrappedValue] Got stored value for app_shared_nx_fallback_is_enabled: true
+200310 16:43:48.884 [INFO][478.UserDefaults.wrappedValue] Got stored value for app_shared_dns_log_is_enabled: true
+200310 16:43:48.884 [INFO][478.LogExtension.configurationInfo] App version: 4.5 (2002071600.1) - Registration ID: 03f7508b-428b-49ca-970c-26770704629f - Public Key: fc06e03601f516fa2febbf1f31c1d4c0d1b72f3628e4d67d128cec27c19f0073 - Warp: false - DNS Protocol: auto - NXDomain Fallback: true - Log DNS queries: true
+200310 16:43:48.888 [INFO][478.Tunnel.waitForPathSatisfied] waiting for path to become satisfied
+200310 16:43:49.223 [INFO][478.Tunnel.waitForPathSatisfied] path updated ...
+200310 16:43:49.224 [INFO][478.Tunnel.updateSettingsAndConnect] path is satisfied
+200310 16:43:49.232 [INFO][478.Tunnel.updateNetwork] Default path: 
+    status = satisfied
+    reasonCode = 0
+    reason = Path is satisfied
+    isViable = NO
+    isExpensive = NO
+    clientID = 8DB46384-E5CF-4307-8D8E-C4C7F31A1248
+    interfaceType = wifi
+    mtu = 1500
+    maximumDatagramSize = 1440
+    secondsSinceInterfaceChange = 53
+    interfaceOption = en0 : CF45F9C0-48A1-4B16-8EB9-BA833846016A
+    interface = {
+        type = wifi
+        subtype = wifi_infrastructure
+        interfaceName = en0
+        interfaceIndex = 8
+        generation = 109
+        mtu = 1500
+        ipv4Netmask = {255.255.254.0:0
+        }
+        ipv4Broadcast = {192.168.201.255:0
+        }
+    }
+    scopedInterface = {
+        type = wifi
+        subtype = wifi_infrastructure
+        interfaceName = en0
+        interfaceIndex = 8
+        generation = 0
+        mtu = 1500
+        active = YES
+    }
+    dnsServers = (
+        {8.8.8.8:0
+        },
+        {8.8.4.4:0
+        },
+        {1.1.1.1:0
+        },
+        {127.0.0.1:0
+        },
+    )
+    dnsSearchDomains = (
+        guest.swedbank.se,
+    )
+    gateways = (
+        {192.168.200.1:0
+        },
+    )
+    proxySettings = (
+        (
+        {
+        ExceptionsList =         (
+            "*.local",
+            "169.254/16"
+        );
+        FTPPassive = 1;
+        ProxyAutoConfigEnable = 1;
+        ProxyAutoConfigURLString = "http://wpad/wpad.dat";
+        ProxyAutoDiscoveryEnable = 1;
+    }
+),
+    )
+    agents = (
+        {
+            domain = SystemConfig
+            type = ProxyAgent
+            UUID = 62BE1929-B190-10E2-04B5-4918034E1537
+            description = ProxyAgent-@en0
+            isActive = YES
+            isUserActivated = YES
+            isVoluntary = NO
+        },
+        {
+            domain = Skywalk
+            type = FlowSwitch
+            UUID = CF45F9C0-48A1-4B16-8EB9-BA833846016A
+            description = Userspace Networking
+            isActive = YES
+            isUserActivated = NO
+            isVoluntary = NO
+            isNexusProvider = YES
+        },
+        {
+            domain = SystemConfig
+            type = DNSAgent
+            UUID = 603A1F77-DF64-09C2-2DB6-7BA9284F9A03
+            description = DNSAgent-@en0
+            isActive = YES
+            isUserActivated = YES
+            isVoluntary = NO
+        },
+        {
+            domain = Persistent
+            type = Persistent
+            UUID = 6312231B-C45B-4EF0-BC8A-FD9B851C00F6
+            description = Persistent interface guidance
+            isActive = YES
+            isUserActivated = NO
+            isVoluntary = NO
+        },
+    )
+    supportsIPv4 = YES
+    supportsIPv6 = NO
+    supportsDNS = YES
+200310 16:43:49.234 [INFO][478.NetworkInfo.collectNetworkInfo] HTTP Proxy enabled: false
+200310 16:43:49.235 [INFO][478.NetworkInfo.collectNetworkInfo] IPv4 supported: true; IPv6 supported: false
+200310 16:43:49.418 [INFO][478.NetworkInfo.detectCaptivePortal] NetworkInfo: https://cloudflareportal.com/test: success
+200310 16:43:49.418 [INFO][478.NetworkInfo.collectNetworkInfo] Captive portal status (1st attempt): ok
+200310 16:43:49.449 [INFO][478.NetworkInfo.collectNetworkInfo] NAT64 prefix to use: ; Error: nil
+200310 16:43:49.450 [INFO][478.UserDefaults.wrappedValue] Got default value for app_shared_tunnel_mode: split
+200310 16:43:49.472 [INFO][478.LogExtension.networkInfo] Cellular: [3 SE, MCC: 240, MNC: 02] - WiFi: [Swedbank Guest 4:bd:88:ef:33:60] - NAT64: false - DNS search domains: ["guest.swedbank.se"] - Path DNS servers: ["8.8.8.8", "8.8.4.4", "1.1.1.1", "127.0.0.1"]
+200310 16:43:49.473 [INFO][478.Tunnel.updateNetwork] network settings created: {
+    tunnelRemoteAddress = ::1
+    DNSSettings = {
+        server = (
+            192.0.2.2,
+            192.0.2.3,
+        )
+        matchDomains = (
+            ,
+        )
+        matchDomainsNoSearch = NO
+    }
+    IPv4Settings = {
+        configMethod = PPP
+        addresses = (
+            192.0.2.1,
+        )
+        subnetMasks = (
+            255.255.255.255,
+        )
+        includedRoutes = (
+            {
+                destinationAddress = 192.0.2.2
+                destinationSubnetMask = 255.255.255.255
+            },
+            {
+                destinationAddress = 192.0.2.3
+                destinationSubnetMask = 255.255.255.255
+            },
+        )
+        overridePrimary = NO
+    }
+    MTU = 1280
+}
+200310 16:43:49.602 [INFO][478.Tunnel.updateNetwork] settings successfully applied
+200310 16:43:49.602 [INFO][478.UserDefaults.wrappedValue] Got default value for app_shared_dns_mode: auto
+200310 16:43:49.604 [INFO][478.DNS.dnsOverHttpsResolvers] DNS over HTTPS; ["https://162.159.36.1/dns-query", "https://162.159.46.1/dns-query"]
+200310 16:43:49.606 [INFO][478.DNS.updateResolvers] Path DNS; ["8.8.8.8", "8.8.4.4", "1.1.1.1", "127.0.0.1"]
+200310 16:43:49.606 [INFO][478.Tunnel.warpConnect] Warp: disabled
+200310 16:44:06.218 [INFO][478.Tunnel.handleAppMessage] getTunnelStatus
+200310 16:44:09.751 [INFO][478.Tunnel.handleAppMessage] flushExtensionLogs

@@ -1,0 +1,392 @@
+200310 16:37:57.542 [INFO][443..init(with:)] Log started, build: 4.5.6be62884
+200310 16:37:57.767 [INFO][443.AppDelegate.application] App version: 4.5 (2002071600)
+200310 16:37:57.779 [INFO][443.AppDelegate.application] Locale: en_US
+200310 16:37:57.921 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:37:58.341 [INFO][443.WarpApi.patchRegistration] Started
+200310 16:37:58.365 [INFO][443.UserDefaults.wrappedValue] Got stored value for translation_shim_did_finish_keychain_translation: true
+200310 16:37:58.365 [INFO][443.TranslationShim.translateSettings] 
+200310 16:37:58.366 [INFO][443.UserDefaults.wrappedValue] Got stored value for translation_shim_did_finish_config_translation: true
+200310 16:37:58.387 [INFO][443.ReceiptExtractionOperation.loadReceipt] appStoreReceiptURL: file:///private/var/mobile/Containers/Data/Application/9513032B-9797-4836-A3A6-BBD379718CA1/StoreKit/receipt
+200310 16:37:58.400 [INFO][443.ReceiptExtractionOperation.loadReceipt] Appstore receipt data available!
+200310 16:37:58.959 [INFO][443.WarpApi.uploadReceipt] Started
+200310 16:37:58.967 [INFO][443.AppDelegate.applicationDidBecomeActive] 
+200310 16:37:59.594 [INFO][443.WarpApi.patchRegistration] Ended
+200310 16:37:59.686 [INFO][443.TunnelManager.loadDefaultManager] Loaded default manager
+200310 16:37:59.713 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:37:59.727 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:37:59.749 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_wifi: false
+200310 16:37:59.752 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:37:59.753 [INFO][443.AppCoordinator.start] Initialization succeeded.
+200310 16:37:59.824 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_dark_theme: false
+200310 16:37:59.825 [INFO][443.UserDefaults.wrappedValue] Saved app_local_dark_theme: false
+200310 16:37:59.911 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_presented_onboarding: true
+200310 16:37:59.924 [INFO][443.UserDefaults.wrappedValue] Saved app_local_presented_onboarding: true
+200310 16:37:59.925 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_tos_date: Optional(2020-03-08 21:52:08 +0000)
+200310 16:37:59.937 [INFO][443.TunnelManager.updateOnDemandRules] On demand rules updated: [
+    action = disconnect
+    interfaceTypeMatch = any
+    SSIDMatch = (
+        10.31.48.30,
+        127.0.0.1,
+        192.168.1.1,
+        8.8.8.8,
+        1.1.1.1,
+    ), 
+    action = connect
+    interfaceTypeMatch = WiFi, 
+    action = connect
+    interfaceTypeMatch = cellular]
+200310 16:37:59.938 [INFO][443.UserDefaults.wrappedValue] Got default value for app_shared_http_proxy_is_enabled: false
+200310 16:37:59.938 [INFO][443.TunnelManager.updateProxySettings] Proxy settings have not changed
+200310 16:38:00.171 [INFO][443.NotificationsManager.messaging] FCM token d9KCefC880H8qzYdHLpNeI:APA91bFHxRzFUZl0A6xHXfmzdZ8GFDbCqtXh57ehAXROXscWROlsvTGE1wnmopQHE9VjXtGk0ROt_CABxahiA6mwjymq1DKu4pG6oBDfWtaiE_XgrVRcX8ya15lmzk-3lrE23Z6FFzM8
+200310 16:38:00.219 [INFO][443.TunnelManager.loadDefaultManager] Loaded default manager
+200310 16:38:00.219 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:00.220 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:00.220 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_wifi: false
+200310 16:38:00.220 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:00.221 [INFO][443.UserDefaults.wrappedValue] Got default value for app_local_disable_notifications: false
+200310 16:38:00.258 [INFO][443.TunnelManager.updateOnDemandRules] On demand rules updated: [
+    action = disconnect
+    interfaceTypeMatch = any
+    SSIDMatch = (
+        10.31.48.30,
+        127.0.0.1,
+        192.168.1.1,
+        8.8.8.8,
+        1.1.1.1,
+    ), 
+    action = connect
+    interfaceTypeMatch = WiFi, 
+    action = connect
+    interfaceTypeMatch = cellular]
+200310 16:38:00.279 [INFO][443.UserDefaults.wrappedValue] Got default value for app_shared_http_proxy_is_enabled: false
+200310 16:38:00.280 [INFO][443.WarpApi.getWarpConfig] Started
+200310 16:38:00.280 [INFO][443.TunnelManager.updateProxySettings] Proxy settings have not changed
+200310 16:38:00.280 [INFO][443.WarpApi.getWarpCommonConfig] Started
+200310 16:38:00.295 [INFO][443.TunnelManager.sendMessage] Sending message {"type":"getTunnelStatus"}
+200310 16:38:00.322 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: true
+200310 16:38:00.333 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_user_account: Optional(_1dot1dot1dot1.WarpAccount(id: "07fb8184-c6d0-4ea6-a807-4f8d15c079a1", license: Optional("3QD5A6J8-f8gW054O-tz7H502J"), accountType: _1dot1dot1dot1.WarpAccountType.limited, created: 2019-09-26 01:10:32 +0000, updated: 2020-03-08 21:32:59 +0000, plusExpiresAt: nil, premiumData: Optional(31000000000), quota: Optional(0), warpPlus: Optional(true), referralCount: 31))
+200310 16:38:00.351 [INFO][443.WarpApi.getWarpCommonConfig] Ended
+200310 16:38:00.455 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_share_bonus_value: 1000000000
+200310 16:38:00.522 [INFO][443.WarpApi.uploadReceipt] Ended
+200310 16:38:00.551 [INFO][443.WarpApi.getWarpConfig] Started
+200310 16:38:00.567 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.567 [INFO][443.WarpApi.getWarpCommonConfig] Started
+200310 16:38:00.567 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.569 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.570 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.578 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.578 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:00.579 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.579 [INFO][443.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: connected, pause: none, trusted network: none, tunnel status: No captive portal, dns status: unknown, service mode: WARP
+200310 16:38:00.580 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.580 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.581 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.581 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.582 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.582 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:00.582 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.604 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:00.657 [INFO][443.WarpApi.getWarpCommonConfig] Ended
+200310 16:38:00.660 [INFO][443.UserDefaults.wrappedValue] Got default value for app_local_review_request_count: 0
+200310 16:38:00.660 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.661 [INFO][443.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: connected, pause: none, trusted network: none, tunnel status: No captive portal, dns status: cf, service mode: WARP
+200310 16:38:00.661 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.661 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.663 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.663 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.663 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.663 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:00.664 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.664 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:00.664 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:00.664 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: true
+200310 16:38:00.805 [INFO][443.ScreenName.logScreen] main
+200310 16:38:00.865 [INFO][443.WarpApi.getWarpConfig] Ended
+200310 16:38:00.885 [INFO][443.UserDefaults.wrappedValue] Saved app_shared_share_bonus_value: 1000000000
+200310 16:38:00.888 [INFO][443.UserDefaults.wrappedValue] Saved app_shared_warp_configuration: Optional(_1dot1dot1dot1.WarpConfiguration(timeStamp: 2020-03-10 16:38:00 +0000, routingId: [232, 45, 105], interface: _1dot1dot1dot1.Endpoint(v4: "172.16.0.2", v6: "fd01:5ca1:ab1e:8ab7:1538:b9eb:9ec1:5eca"), peers: [_1dot1dot1dot1.Server(publicKey: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", endpoint: _1dot1dot1dot1.Endpoint(v4: "162.159.192.10:2408", v6: "[2606:4700:d0::a29f:c00a]:2408"))], deniedIPv4: [_1dot1dot1dot1.DeniedIPv4(address: "10.0.0.0", netmask: "255.0.0.0"), _1dot1dot1dot1.DeniedIPv4(address: "100.64.0.0", netmask: "255.192.0.0"), _1dot1dot1dot1.DeniedIPv4(address: "169.254.0.0", netmask: "255.255.0.0"), _1dot1dot1dot1.DeniedIPv4(address: "172.16.0.0", netmask: "255.240.0.0"), _1dot1dot1dot1.DeniedIPv4(address: "192.0.0.0", netmask: "255.255.255.0"), _1dot1dot1dot1.DeniedIPv4(address: "192.168.0.0", netmask: "255.255.0.0"), _1dot1dot1dot1.DeniedIPv4(address: "224.0.0.0", netmask: "240.0.0.0"), _1dot1dot1dot1.DeniedIPv4(address: "240.0.0.0", netmask: "240.0.0.0"), _1dot1dot1dot1.DeniedIPv4(address: "255.255.255.255", netmask: "255.255.255.255")], deniedIPv6: [], httpProxy: "172.16.0.1:2480"))
+200310 16:38:00.896 [INFO][443.UserDefaults.wrappedValue] Saved app_shared_user_account: Optional(_1dot1dot1dot1.WarpAccount(id: "07fb8184-c6d0-4ea6-a807-4f8d15c079a1", license: Optional("3QD5A6J8-f8gW054O-tz7H502J"), accountType: _1dot1dot1dot1.WarpAccountType.limited, created: 2019-09-26 01:10:32 +0000, updated: 2020-03-08 21:32:59 +0000, plusExpiresAt: nil, premiumData: Optional(31000000000), quota: Optional(0), warpPlus: Optional(true), referralCount: 31))
+200310 16:38:01.481 [INFO][443.WarpApi.getWarpConfig] Ended
+200310 16:38:01.488 [INFO][443.UserDefaults.wrappedValue] Saved app_shared_share_bonus_value: 1000000000
+200310 16:38:01.493 [INFO][443.UserDefaults.wrappedValue] Saved app_shared_warp_configuration: Optional(_1dot1dot1dot1.WarpConfiguration(timeStamp: 2020-03-10 16:38:01 +0000, routingId: [232, 45, 105], interface: _1dot1dot1dot1.Endpoint(v4: "172.16.0.2", v6: "fd01:5ca1:ab1e:8ab7:1538:b9eb:9ec1:5eca"), peers: [_1dot1dot1dot1.Server(publicKey: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", endpoint: _1dot1dot1dot1.Endpoint(v4: "162.159.192.10:2408", v6: "[2606:4700:d0::a29f:c00a]:2408"))], deniedIPv4: [_1dot1dot1dot1.DeniedIPv4(address: "10.0.0.0", netmask: "255.0.0.0"), _1dot1dot1dot1.DeniedIPv4(address: "100.64.0.0", netmask: "255.192.0.0"), _1dot1dot1dot1.DeniedIPv4(address: "169.254.0.0", netmask: "255.255.0.0"), _1dot1dot1dot1.DeniedIPv4(address: "172.16.0.0", netmask: "255.240.0.0"), _1dot1dot1dot1.DeniedIPv4(address: "192.0.0.0", netmask: "255.255.255.0"), _1dot1dot1dot1.DeniedIPv4(address: "192.168.0.0", netmask: "255.255.0.0"), _1dot1dot1dot1.DeniedIPv4(address: "224.0.0.0", netmask: "240.0.0.0"), _1dot1dot1dot1.DeniedIPv4(address: "240.0.0.0", netmask: "240.0.0.0"), _1dot1dot1dot1.DeniedIPv4(address: "255.255.255.255", netmask: "255.255.255.255")], deniedIPv6: [], httpProxy: "172.16.0.1:2480"))
+200310 16:38:01.494 [INFO][443.UserDefaults.wrappedValue] Saved app_shared_user_account: Optional(_1dot1dot1dot1.WarpAccount(id: "07fb8184-c6d0-4ea6-a807-4f8d15c079a1", license: Optional("3QD5A6J8-f8gW054O-tz7H502J"), accountType: _1dot1dot1dot1.WarpAccountType.limited, created: 2019-09-26 01:10:32 +0000, updated: 2020-03-08 21:32:59 +0000, plusExpiresAt: nil, premiumData: Optional(31000000000), quota: Optional(0), warpPlus: Optional(true), referralCount: 31))
+200310 16:38:02.825 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: true
+200310 16:38:04.396 [INFO][443.UserDefaults.wrappedValue] Saved app_shared_warp_is_enabled: false
+200310 16:38:04.397 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200310 16:38:04.398 [INFO][443.ServiceModeMonitor.current] ServiceMode updated to: oneDot
+200310 16:38:04.413 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.413 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.418 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.419 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.421 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.421 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.423 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.423 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.424 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.448 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.448 [INFO][443.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: disconnecting, pause: none, trusted network: none, tunnel status: No captive portal, dns status: cf, service mode: oneDot
+200310 16:38:04.449 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.449 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.451 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.451 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.452 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.452 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.452 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.453 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.453 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.453 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.454 [INFO][443.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: disconnecting, pause: none, trusted network: none, tunnel status: No captive portal, dns status: cf, service mode: oneDot
+200310 16:38:04.454 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.454 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.455 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.456 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.456 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.456 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.457 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.457 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.457 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.459 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.459 [INFO][443.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: disconnecting, pause: none, trusted network: none, tunnel status: No captive portal, dns status: cf, service mode: oneDot
+200310 16:38:04.459 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.459 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.460 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.461 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.461 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.461 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.461 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.462 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.462 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.462 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.462 [INFO][443.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: disconnecting, pause: none, trusted network: none, tunnel status: No captive portal, dns status: cf, service mode: oneDot
+200310 16:38:04.462 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.462 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.463 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.464 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.464 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.464 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.464 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.464 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.465 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.746 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.753 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:04.754 [INFO][443.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: disconnected, pause: none, trusted network: none, tunnel status: No captive portal, dns status: cf, service mode: oneDot
+200310 16:38:04.754 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.755 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.761 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:04.762 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_wifi: false
+200310 16:38:04.763 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.771 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:04.772 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.773 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.777 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:04.778 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_wifi: false
+200310 16:38:04.778 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.780 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.787 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:04.787 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.788 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.789 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.792 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:04.792 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.794 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.796 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:04.796 [INFO][443.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: disconnected, pause: none, trusted network: none, tunnel status: No captive portal, dns status: cf, service mode: oneDot
+200310 16:38:04.797 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.797 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.800 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:04.800 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_wifi: false
+200310 16:38:04.800 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.805 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:04.805 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.806 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.808 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:04.808 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_wifi: false
+200310 16:38:04.808 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.809 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.811 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:04.811 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.812 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.812 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.816 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:04.816 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.817 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.820 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:04.820 [INFO][443.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: disconnected, pause: none, trusted network: none, tunnel status: No captive portal, dns status: unknown, service mode: oneDot
+200310 16:38:04.820 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.821 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.823 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:04.823 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_wifi: false
+200310 16:38:04.823 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.827 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:04.827 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.827 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.829 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:04.829 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_wifi: false
+200310 16:38:04.830 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.830 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.832 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:04.833 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.844 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.846 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.849 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:04.849 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.850 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.851 [INFO][443.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: connecting, pause: none, trusted network: none, tunnel status: No captive portal, dns status: unknown, service mode: oneDot
+200310 16:38:04.851 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.851 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.853 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.853 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.853 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.854 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.854 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.854 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.854 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.855 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.855 [INFO][443.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: connecting, pause: none, trusted network: none, tunnel status: No captive portal, dns status: unknown, service mode: oneDot
+200310 16:38:04.855 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.855 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.856 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.856 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.856 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.857 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.857 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.857 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.857 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.858 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.858 [INFO][443.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: connecting, pause: none, trusted network: none, tunnel status: No captive portal, dns status: unknown, service mode: oneDot
+200310 16:38:04.858 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.858 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.860 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.860 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.860 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.860 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.861 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.861 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.861 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.861 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.861 [INFO][443.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: connecting, pause: none, trusted network: none, tunnel status: No captive portal, dns status: unknown, service mode: oneDot
+200310 16:38:04.862 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.862 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.863 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.863 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.863 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.863 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:04.863 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.864 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:04.864 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:05.653 [INFO][443.TunnelManager.sendMessage] Sending message {"type":"getTunnelStatus"}
+200310 16:38:05.654 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.654 [INFO][443.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: connected, pause: none, trusted network: none, tunnel status: No captive portal, dns status: unknown, service mode: oneDot
+200310 16:38:05.655 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.656 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.659 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.660 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.661 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.662 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:05.663 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.663 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.664 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:05.666 [INFO][443.UserDefaults.wrappedValue] Got default value for app_local_review_request_count: 0
+200310 16:38:05.668 [INFO][443.TunnelManager.sendMessage] Sending message {"type":"getTunnelStatus"}
+200310 16:38:05.668 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.669 [INFO][443.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: connected, pause: none, trusted network: none, tunnel status: No captive portal, dns status: unknown, service mode: oneDot
+200310 16:38:05.670 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.671 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.674 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.675 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.676 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.676 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:05.677 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.678 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.679 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:05.680 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.681 [INFO][443.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: connected, pause: none, trusted network: none, tunnel status: No captive portal, dns status: unknown, service mode: oneDot
+200310 16:38:05.682 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.682 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.685 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.686 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.687 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.687 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:05.688 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.688 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.688 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:05.689 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:05.689 [INFO][443.UserDefaults.wrappedValue] Got default value for app_local_review_request_count: 0
+200310 16:38:06.444 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_user_account: Optional(_1dot1dot1dot1.WarpAccount(id: "07fb8184-c6d0-4ea6-a807-4f8d15c079a1", license: Optional("3QD5A6J8-f8gW054O-tz7H502J"), accountType: _1dot1dot1dot1.WarpAccountType.limited, created: 2019-09-26 01:10:32 +0000, updated: 2020-03-08 21:32:59 +0000, plusExpiresAt: nil, premiumData: Optional(31000000000), quota: Optional(0), warpPlus: Optional(true), referralCount: 31))
+200310 16:38:06.499 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_user_account: Optional(_1dot1dot1dot1.WarpAccount(id: "07fb8184-c6d0-4ea6-a807-4f8d15c079a1", license: Optional("3QD5A6J8-f8gW054O-tz7H502J"), accountType: _1dot1dot1dot1.WarpAccountType.limited, created: 2019-09-26 01:10:32 +0000, updated: 2020-03-08 21:32:59 +0000, plusExpiresAt: nil, premiumData: Optional(31000000000), quota: Optional(0), warpPlus: Optional(true), referralCount: 31))
+200310 16:38:06.528 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200310 16:38:06.528 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200310 16:38:06.529 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_dark_theme: false
+200310 16:38:06.540 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200310 16:38:06.540 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200310 16:38:06.540 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_dark_theme: false
+200310 16:38:06.541 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_user_account: Optional(_1dot1dot1dot1.WarpAccount(id: "07fb8184-c6d0-4ea6-a807-4f8d15c079a1", license: Optional("3QD5A6J8-f8gW054O-tz7H502J"), accountType: _1dot1dot1dot1.WarpAccountType.limited, created: 2019-09-26 01:10:32 +0000, updated: 2020-03-08 21:32:59 +0000, plusExpiresAt: nil, premiumData: Optional(31000000000), quota: Optional(0), warpPlus: Optional(true), referralCount: 31))
+200310 16:38:06.550 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200310 16:38:06.551 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_user_account: Optional(_1dot1dot1dot1.WarpAccount(id: "07fb8184-c6d0-4ea6-a807-4f8d15c079a1", license: Optional("3QD5A6J8-f8gW054O-tz7H502J"), accountType: _1dot1dot1dot1.WarpAccountType.limited, created: 2019-09-26 01:10:32 +0000, updated: 2020-03-08 21:32:59 +0000, plusExpiresAt: nil, premiumData: Optional(31000000000), quota: Optional(0), warpPlus: Optional(true), referralCount: 31))
+200310 16:38:06.556 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_share_bonus_value: 1000000000
+200310 16:38:06.561 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200310 16:38:06.747 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:06.748 [INFO][443.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: connected, pause: none, trusted network: none, tunnel status: No captive portal, dns status: doh, service mode: oneDot
+200310 16:38:06.748 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:06.749 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:06.753 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:06.754 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:06.756 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:06.756 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:06.758 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:06.759 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:06.759 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:06.761 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_state_public_pause_schedule: nil
+200310 16:38:07.270 [INFO][443.ScreenName.logScreen] settings
+200310 16:38:10.365 [INFO][443.ScreenName.logScreen] more_settings
+200310 16:38:11.746 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1"]
+200310 16:38:11.799 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:11.803 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_wifi: false
+200310 16:38:11.831 [INFO][443.UserDefaults.wrappedValue] Got default value for app_shared_dns_mode: auto
+200310 16:38:11.834 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_nx_fallback_is_enabled: true
+200310 16:38:12.503 [INFO][443.ScreenName.logScreen] connection_options
+200310 16:38:13.718 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_nx_fallback_is_enabled: true
+200310 16:38:16.970 [INFO][443.UserDefaults.wrappedValue] Saved app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1", "10.23.64.114"]
+200310 16:38:16.972 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1", "10.23.64.114"]
+200310 16:38:16.973 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1", "10.23.64.114"]
+200310 16:38:16.980 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_trusted_wifi_networks: ["10.31.48.30", "127.0.0.1", "192.168.1.1", "8.8.8.8", "1.1.1.1", "10.23.64.114"]
+200310 16:38:16.981 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_wifi: false
+200310 16:38:16.982 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_local_disable_on_cellular: false
+200310 16:38:17.137 [INFO][443.TunnelManager.updateOnDemandRules] On demand rules updated: [
+    action = disconnect
+    interfaceTypeMatch = any
+    SSIDMatch = (
+        10.31.48.30,
+        127.0.0.1,
+        192.168.1.1,
+        8.8.8.8,
+        1.1.1.1,
+        10.23.64.114,
+    ), 
+    action = connect
+    interfaceTypeMatch = WiFi, 
+    action = connect
+    interfaceTypeMatch = cellular]
+200310 16:38:22.521 [INFO][443.ScreenName.logScreen] more_settings
+200310 16:38:23.843 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200310 16:38:23.844 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200310 16:38:23.845 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200310 16:38:23.845 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200310 16:38:23.846 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200310 16:38:23.847 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200310 16:38:23.864 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200310 16:38:24.569 [INFO][443.ScreenName.logScreen] diagnostics
+200310 16:38:27.331 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_dns_log_is_enabled: true
+200310 16:38:27.338 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_dns_log_is_enabled: true
+200310 16:38:27.342 [INFO][443.TunnelManager.sendMessage] Sending message {"type":"getDNSLogs"}
+200310 16:38:28.036 [INFO][443.ScreenName.logScreen] dns_logs
+200310 16:38:32.129 [INFO][443.ScreenName.logScreen] dns_query_details
+200310 16:38:34.847 [INFO][443.TunnelManager.sendMessage] Sending message {"type":"getDNSLogs"}
+200310 16:38:35.541 [INFO][443.ScreenName.logScreen] dns_logs
+200310 16:38:35.547 [INFO][443.UserDefaults.wrappedValue] Got stored value for app_shared_warp_is_enabled: false
+200310 16:38:36.225 [INFO][443.ScreenName.logScreen] diagnostics
+200310 16:38:37.038 [INFO][443.TunnelManager.sendMessage] Sending message {"type":"flushExtensionLogs"}
+200310 16:38:39.143 [INFO][443.ScreenName.logScreen] console_logs
+200310 16:38:40.185 [INFO][443.TunnelManager.sendMessage] Sending message {"type":"flushExtensionLogs"}
+200310 16:38:40.972 [INFO][443.ScreenName.logScreen] console_log_details
+200310 16:39:06.580 [INFO][443.ScreenName.logScreen] console_logs
